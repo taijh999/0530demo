@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author Administrator
- * 运用图形界面的加法运算
+ * 杩愮敤鍥惧舰鐣岄潰鐨勫姞娉曡繍绠�
  */
 public class NumberForamtExceptionDemo {
 
@@ -22,12 +22,12 @@ public class NumberForamtExceptionDemo {
         
         try{
         
-        int x = Integer.parseInt(s1); //1w数字格式异常对象
+        int x = Integer.parseInt(s1); //1w鏁板瓧鏍煎紡寮傚父瀵硅薄ttt
         int y = Integer.parseInt(s2); //NumberFormatException 
          sum = x + y;
         }catch(NumberFormatException e){
             System.out.println(e.getMessage());
-           // System.out.println("数字格式错误");
+           // System.out.println("鏁板瓧鏍煎紡閿欒");
             
             
         }
